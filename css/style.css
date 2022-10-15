@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
 
 /* CARD COMPONENT */
-img {
+.card {
+  width: 100%;
+}
+
+.card img {
   width: 100%;
   border-radius: 12px;
   height: 214px;
-  object-fit: cover;
 }
 
 .tag {
@@ -15,6 +18,30 @@ img {
   font-size: 12px;
   font-weight: 600;
   color: #788697;
+}
+
+.tag__html:hover {
+  background-color: #f16529;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+.tag__css:hover {
+  background-color: #254de4;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+.tag__js:hover {
+  background-color: #e4a126;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+.tag__sql:hover {
+  background-color: #0079d6;
+  color: white;
+  transition: all 200ms ease-in-out;
 }
 
 .name {
@@ -69,7 +96,7 @@ body {
 
 .card {
   background-color: #fff;
-  padding: 8px;
+  /* padding: 8px; */
   border-radius: 12px;
   border: 1px solid #bacdd8;
 }
