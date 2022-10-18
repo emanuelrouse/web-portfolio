@@ -11,6 +11,7 @@
   --secondary-color: #ff7235;
   --nav-color: #b0c4de;
   --primary-shadow: #8b8eaf;
+  --secondary-shadow: #a17a69;
   --bottom-margin: 0.65rem;
   --bottom-margin2: 1rem;
   --line-height: 1.7rem;
@@ -140,7 +141,8 @@ nav ul li {
   margin: var(--bottom-margin);
 }
 
-.about h1 {
+.about h2 {
+  text-align: center;
   margin-bottom: var(--bottom-margin);
 }
 
@@ -209,4 +211,33 @@ nav ul li {
 .btn-row button:hover {
   background-color: #0077ff;
   color: #e0efff;
+}
+
+.skills {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: var(--bottom-margin2);
+}
+
+.skill-header {
+  margin-bottom: var(--bottom-margin2);
+}
+
+.skills-wrapper img {
+  padding: 1.25rem;
+}
+
+.icon {
+  width: 11.875rem;
+  height: 11.25rem;
+}
+
+.icon-card {
+  background-color: hsl(211, 75%, 19%);
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+  padding: 20px;
+  margin: 10px;
 }
