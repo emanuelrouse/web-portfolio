@@ -52,6 +52,7 @@ nav {
   top: 0;
   left: 0;
   z-index: 1;
+  height: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -99,7 +100,7 @@ nav ul li {
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  height: 80vh;
+  height: 90vh;
   margin-bottom: var(--bottom-margin);
 }
 
@@ -132,6 +133,7 @@ nav ul li {
 
 /* ABOUT SECTION */
 .about {
+  background-color: hsl(211, 75%, 19%);
   padding: 0.625rem;
   border-radius: 6px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
@@ -164,8 +166,8 @@ nav ul li {
 }
 
 .project-container {
-  background-color: #5a5a5a;
-  color: black;
+  background-color: hsl(211, 75%, 19%);
+  color: white;
   text-align: center;
   width: 21.875rem;
   padding: 1rem;
@@ -184,9 +186,8 @@ nav ul li {
 }
 
 .project-card {
-  background-color: #fff;
   border-radius: 11px;
-  box-shadow: 0 2px 7px var(--primary-shadow);
+  box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
 }
