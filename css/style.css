@@ -11,7 +11,7 @@
   --secondary-color: #ff7235;
   --nav-color: #b0c4de;
   --primary-shadow: #8b8eaf;
-  --bottom-margin: 0.5rem;
+  --bottom-margin: 0.65rem;
   --bottom-margin2: 1rem;
   --line-height: 1.7rem;
   --transition: 0.3s;
@@ -79,6 +79,15 @@ nav ul li {
   font-weight: var(--bold-font);
 }
 
+.burger-menu {
+  color: var(--primary-color);
+  font-size: 2rem;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+
 /* HERO SECTION */
 .hero {
   display: flex;
@@ -91,7 +100,7 @@ nav ul li {
   background-repeat: no-repeat;
   color: white;
   height: 80vh;
-  margin-bottom: 10px;
+  margin-bottom: var(--bottom-margin);
 }
 
 /* HERO ANIMATION */
@@ -121,15 +130,23 @@ nav ul li {
   }
 }
 
-.burger-menu {
-  color: var(--primary-color);
-  font-size: 2rem;
-  border: 0;
-  background-color: transparent;
-  cursor: pointer;
-  display: none;
+/* ABOUT SECTION */
+.about {
+  padding: 0.625rem;
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  margin: var(--bottom-margin);
 }
 
+.about h1 {
+  margin-bottom: var(--bottom-margin);
+}
+
+.about p {
+  line-height: var(--line-height);
+  padding: 0.3rem 0;
+}
+/* PROJECTS SECTION */
 .project-pic {
   width: 65%;
   height: 60%;
