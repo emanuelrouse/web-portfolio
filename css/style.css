@@ -48,12 +48,15 @@ body {
   background-color: var(--bg-color);
 }
 
+section {
+  margin-bottom: var(--bottom-margin2);
+}
+
 nav {
   position: sticky;
   top: 0;
   left: 0;
   z-index: 1;
-  height: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -240,4 +243,72 @@ nav ul li {
   box-shadow: 0 3px 10px var(--secondary-shadow);
   padding: 20px;
   margin: 10px;
+}
+
+/* CONTACT SECTION */
+.contact {
+  margin-top: 2rem;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: var(--bottom-margin2);
+}
+
+.contact-form-container {
+  max-width: 40.75rem;
+  margin: 0 auto;
+  padding: 0.938rem;
+  background-color: hsl(211, 75%, 19%);
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+  border-radius: 10px;
+}
+
+.contact-form-container label {
+  line-height: 2.7em;
+  font-weight: var(--bold-font);
+  color: #0077ff;
+}
+
+.contact-form-container textarea {
+  min-height: 6.25rem;
+  font-size: 14px;
+  margin-bottom: var(--bottom-margin);
+}
+
+.contact-form-container .input-field {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 5px;
+  color: #0077ff;
+  border: none;
+  border: 2px outset #0077ff;
+  font-size: 0.875rem;
+  outline: none;
+}
+
+.input-field::placeholder {
+  padding: 0.5rem;
+  color: #0077ff;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #e0efff;
+  margin: 0 auto;
+  border: none;
+  color: #0077ff;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: var(--bold-font);
+  transition: var(--transition);
+}
+
+.submit-btn:hover {
+  transition: all 200ms ease-in-out;
+  background-color: #0077ff;
+  color: #fff;
+  cursor: pointer;
 }
