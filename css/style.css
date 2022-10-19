@@ -7,6 +7,7 @@
   --bolder-font: 900;
   --main-font-color: #f5f5f5;
   --bg-color: #011932;
+  --bg-color2: #0c2f55;
   --primary-color: #4756df;
   --secondary-color: #ff7235;
   --nav-color: #b0c4de;
@@ -75,6 +76,10 @@ nav a:hover {
   transition: 0.3s;
 }
 
+nav .nav-logo {
+  height: 50px;
+}
+
 nav ul {
   display: flex;
   gap: 1.9rem;
@@ -137,7 +142,7 @@ nav ul li {
 
 /* ABOUT SECTION */
 .about {
-  background-color: hsl(211, 75%, 19%);
+  background-color: var(--bg-color2);
   padding: 0.625rem;
   border-radius: 6px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
@@ -171,7 +176,7 @@ nav ul li {
 }
 
 .project-container {
-  background-color: hsl(211, 75%, 19%);
+  background-color: var(--bg-color2);
   color: white;
   text-align: center;
   width: 21.875rem;
@@ -238,7 +243,7 @@ nav ul li {
 }
 
 .icon-card {
-  background-color: hsl(211, 75%, 19%);
+  background-color: var(--bg-color2);
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--secondary-shadow);
   padding: 20px;
@@ -259,7 +264,7 @@ nav ul li {
   max-width: 40.75rem;
   margin: 0 auto;
   padding: 0.938rem;
-  background-color: hsl(211, 75%, 19%);
+  background-color: var(--bg-color2);
   box-shadow: 0 3px 10px var(--secondary-shadow);
   border-radius: 10px;
 }
