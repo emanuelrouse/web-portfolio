@@ -66,11 +66,11 @@ nav {
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-nav a {
+.navigation a {
   color: black;
 }
 
-nav a:hover {
+.navigation a:hover {
   color: black;
   border-bottom: 2px solid white;
   transition: 0.3s;
@@ -320,7 +320,6 @@ nav ul li {
 }
 
 .form-btn:hover {
-  color: var(--secondary-color);
   background-position: 100% 0;
   -o-transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
